@@ -23,7 +23,7 @@ let dark = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{
 });
 
 // map object with default layer.
-let map = L.map('mapid', {
+let map = L.map('map', {
 	center: [40.7, -94.5],
 	zoom: 4,
 	layers: [streets]
